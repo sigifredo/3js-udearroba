@@ -1,13 +1,33 @@
-html,
-body {
-  color: white;
-  margin: 0;
-  padding: 0;
+
+:root {
+    --accentColor: #795548;
+    --backgroundColor: #242424;
+    --dividerColor: #bdbdbd;
+    --primaryColor: #009688;
+    --primaryText: white;
+    --secondaryText: #757575;
 }
 
-canvas.webgl {
-  left: 0;
-  outline: none;
-  position: fixed;
-  top: 0;
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: var(--backgroundColor);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+canvas.app {
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --backgroundColor: white;
+        --primaryText: #212121;
+    }
 }
