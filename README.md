@@ -1,3 +1,3 @@
-# ThreeJS - Test001
+# ThreeJS - Ude@
 
-Plantilla de ThreeJS con el código base para empezar a trabajar.
+Código desarrollado en la capacitación de ThreeJS.
