@@ -1,11 +1,5 @@
-
 :root {
-    --accentColor: #795548;
-    --backgroundColor: #242424;
-    --dividerColor: #bdbdbd;
-    --primaryColor: #009688;
-    --primaryText: white;
-    --secondaryText: #757575;
+    --backgroundColor: #0f0f0f;
 }
 
 *,
@@ -22,17 +16,10 @@ body {
     padding: 0;
 }
 
-canvas#canvas {
-    height: 100%;
+canvas#app {
+    height: 100vh;
     left: 0;
     position: absolute;
     top: 0;
-    width: 100%;
-}
-
-@media (prefers-color-scheme: light) {
-    :root {
-        --backgroundColor: white;
-        --primaryText: #212121;
-    }
+    width: 100vw;
 }

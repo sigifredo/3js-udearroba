@@ -1,18 +1,21 @@
 {
-  "name": "test001",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "serve": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "sass": "^1.77.6",
-    "vite": "^5.2.8"
-  },
-  "dependencies": {
-    "three": "^0.163.0"
-  }
+    "name": "3js-udearroba",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "cannon-es": "^0.20.0",
+        "cannon-es-debugger": "^1.0.0",
+        "lil-gui": "^0.19.2",
+        "vite": "^5.3.4"
+    },
+    "dependencies": {
+        "sass": "^1.77.8",
+        "three": "^0.166.1"
+    }
 }
